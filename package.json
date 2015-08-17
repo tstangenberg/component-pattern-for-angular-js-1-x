@@ -4,7 +4,7 @@
   "description": "Example of how to implement Component Pattern in Angular JS 1.X",
   "scripts": {
     "build": "webpack --config webpack.build.js --bail -p",
-    "dev": "webpack-dev-server --host=$IP --port=$PORT --history-api-fallback --hot --inline --progress ",
+    "dev": "webpack-dev-server --host=$IP --port=$PORT --history-api-fallback --hot --inline --progress",
     "test": "karma start",
     "test:live": "karma start --auto-watch --no-single-run"
   },
